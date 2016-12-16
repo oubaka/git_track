@@ -35,6 +35,16 @@
 
 16. Make some commits on branch "master":
 17. rebase branch "master" in "feature2" (make some conflicts by changing same file on same line in both the branches):
+# git checkout master
+# git rebase feature2
 18. find the differences between "merge" and "rebase" in above cases:
+# The difference between merge and rebase is
+# 1. Merge just applies the needed changes to the branch from which the merge was run, whereas 
+# Rebase will affect the commit history by replaying the chain of commit history involved or needed
 19. Use git stash:
+# git stash
+# git stash save
+# git stash pop
+# git stash drop
 20. create a repository on github for your working repository and push changes on remote repository:
+# git remote add origin https://github.com/oubaka/git_track.git
