@@ -38,37 +38,3 @@
 18. find the differences between "merge" and "rebase" in above cases:
 19. Use git stash:
 20. create a repository on github for your working repository and push changes on remote repository:
-
-# Exercise 2
-1. Create two folders project1 and project2.
-2. Switch to project1 and create a repository in it named test_project.
-# cd test_project
-# git init
-3. Switch to a new branch - 'staging'.
-# git checkout -b staging
-4. Add a file in it - 'test1' and add content to it 'This is first commit'.
-5. Push it to github.
-6. Move to folder project2.
-7. Clone the repo in project2.
-8. Switch to staging.
-9. Change the text in file 'test1' to 'This is second commit'.
-10. Commit and push to remote branch.
-11. Move to project1.
-12. Switch to staging branch.
-13. Change the text in file 'test1' to 'This is third commit'.
-14. Commit and push to remote branch. (Explain what happened here).
-15. Switch to master.
-16. Merge staging branch into master.
-17. Create a new branch testing.
-18. Change the text to 'A is an alphabet' and commit.
-19. Repeat the 'step 18' seven times and each time update the alphabet 'A' to 'B' to 'C' etc.(Don't forget to commit the change everytime)
-20. Push the branch to github.
-21. Checkout to master.
-22. Change the text '1 is a number' and commit.
-23. Repeat the 'step 22' seven times and each time update the number '1' to '2' to '3' etc.(Don't forget to commit the change everytime)
-24. Push master branch to github.
-25. Now, rebase testing into master(and don't push the new master and testing branch).
-26. Move to project2.
-27. Track testing branch.
-28. Checkout to master.
-29. Merge branch testing into master.
