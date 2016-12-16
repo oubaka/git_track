@@ -1,2 +1,2 @@
 Hello world
-It's all about my hello world
+It's all about my hello world program
